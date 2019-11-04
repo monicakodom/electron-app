@@ -1,0 +1,14 @@
+/*toolbar nav--*/
+.nav-links{
+    text-align: right;
+    list-style-type: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    margin: 1%;
+}
+
+.nav-logo {
+    float: left;
+}

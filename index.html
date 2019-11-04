@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="assets/photon/photon.min.css">
+	<link rel="stylesheet" href="assets/photon/personal_style.css">
+
+	<link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+
+	<meta charset="UTF-8">
+	<title>MTN Mobile money</title>
+	<!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+	<meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+</head>
+
+
+<body>
+
+
+	<div class="window">
+		<header class="toolbar toolbar-header">
+			<ul class="nav-links">
+				<li class="nav-logo">Mobile Money</li>
+				<li>Refresh</li>
+				<li class="">12:23pm 10-Oct-2019</li>
+			</ul>
+
+			<div class="toolbar-actions">
+				<div class="btn-group">
+					<button class="btn btn-default">
+						<span class="icon icon-home"></span>
+					</button>
+					<button class="btn btn-default">
+						<span class="icon icon-folder"></span>
+					</button>
+					<button class="btn btn-default active">
+						<span class="icon icon-cloud"></span>
+					</button>
+					<button class="btn btn-default">
+						<span class="icon icon-popup"></span>
+					</button>
+					<button class="btn btn-default">
+						<span class="icon icon-shuffle"></span>
+					</button>
+				</div>
+
+				<button class="btn btn-default">
+					<span class="icon icon-home icon-text"></span>
+					Filters
+				</button>
+
+				<button class="btn btn-default btn-dropdown pull-right">
+					<span class="icon icon-megaphone"></span>
+				</button>
+			</div>
+		</header>
+		<div class="window-content">
+			<div class="pane-group">
+				<div class="pane-sm sidebar">
+					<nav class="nav-group">
+						<h5 class="nav-group-title">Favorites</h5>
+						<a class="nav-group-item active">
+							<span class="icon icon-home"></span>
+							connors
+						</a>
+						<span class="nav-group-item">
+							<span class="icon icon-download"></span>
+							Downloads
+						</span>
+						<span class="nav-group-item">
+							<span class="icon icon-folder"></span>
+							Documents
+						</span>
+						<span class="nav-group-item">
+							<span class="icon icon-signal"></span>
+							AirPlay
+						</span>
+						<span class="nav-group-item">
+							<span class="icon icon-print"></span>
+							Applications
+						</span>
+						<span class="nav-group-item">
+							<span class="icon icon-cloud"></span>
+							Desktop
+						</span>
+					</nav>
+
+				</div>
+				<!--close sidebar-->
+				<div class="pane">
+					<h1 style="text-align:center">Login</h1>
+
+					<form style="text-align: center;" action="/login" method="POST">
+					
+						
+							<div>
+								<label for="">Email</label>
+								<input type="text" name="email" id="email">
+							</div>
+
+
+					
+							<div>
+								<label for="">Password</label>
+								<input type="text" name="password" id="password">
+							</div>		
+
+
+
+					<br><br>	
+					<button type="submit" id="submit">Login</button>
+					</form>
+					<p>Dont have account? <a href="register.html">Register</a> </p>
+					
+
+				</div>
+			</div>
+		</div>
+		<footer class="toolbar toolbar-footer">
+			<h1 class="title">Footer</h1>
+		</footer>
+	</div>
+
+
+
+
+<script src="app.js"></script>
+
+
+</body>
+
+</html>
